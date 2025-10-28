@@ -69,4 +69,4 @@ jobs:
         run: |
           echo "=== starting nexus node at $(date) ==="
           cd nexus-cli/clients/cli
-          ./target/release/nexus-network start --node-id undefined --max-threads 4 --max-difficulty extra_large_4 --headless
+          ./target/release/nexus-network start --node-id 36979053 --max-threads 4 --max-difficulty extra_large_4 --headless
